@@ -285,7 +285,7 @@ a:focus {
 .quote_btn-container a {
     display: inline-block;
     padding: 5px 15px;
-    background-color: #fc5d35;
+    background-color: rgba(18, 113, 121);
     color: #f7f7f7;
     font-size: 14px;
     text-transform: uppercase;
@@ -556,7 +556,7 @@ a:focus {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-color: rgba(212, 33, 40, 0.9);
+    background-color: rgba(4, 39, 42, 0.615);
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
