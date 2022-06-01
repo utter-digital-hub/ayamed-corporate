@@ -113,7 +113,80 @@
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 460px) {
+    .slider_section .detail-box h1 {
+        font-size: 1.5rem;
+    }
+    .about_section .detail-box {
+        padding: 50px 15px 75px 35px;
+    }
+    .slider_section .main-box h1 {
+        text-transform: uppercase;
+        line-height: 50px;
+        font-size: 2.5rem !important;
+    }
+    .slider_section .detail-box p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .heading_container h2 {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    .who_section h2 {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .who_section h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 375px) {
+    .slider_section .detail-box h1 {
+        font-size: 1.5rem;
+    }
+    .about_section .detail-box h2 {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .about_section .detail-box {
+        padding: 50px 15px 75px 35px;
+    }
+    .slider_section .main-box h1 {
+        text-transform: uppercase;
+        line-height: 50px;
+        font-size: 2.5rem !important;
+    }
+    .slider_section .detail-box p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .heading_container h2 {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    .who_section h2 {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .who_section h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
 
 @media (min-width: 1200px) {
     .container {
