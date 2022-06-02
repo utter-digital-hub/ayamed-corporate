@@ -996,3 +996,13 @@ a:focus {
 
 
 /*# sourceMappingURL=style.css.map */
+
+.videoframe {
+    width: 560px;
+    height: 315px;
+}
+
+.mapframe {
+    width: 600px;
+    height: 350px;
+}
