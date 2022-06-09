@@ -2,7 +2,8 @@ AYAmed Corporate
 
 A AYAmed Corporate é uma unidade de cuidados médicos que apresenta soluções holísticas na área de saúde ocupacional.
 As suas soluções compreendem 3 Ramos distintos:
-1 Assistência Médica e Medicamentosa: Engloba o agregado de consultórios médicos das principais especialidades; Exames laboratoriaias (de análises clínicas e de COVID-19), Radiológicos e Complementares de Diagnóstico; Serviços Domiciliares;  e Programas (Conjuntos de serviços) direccionados para grupos homogéneos de pacientes. Estas soluções podem ser intermediadas pelos seguintes métodos: Intermédio de Seguradora, Conta Corrente e Gestão de Plafond.
+1 Assistência Médica e Medicamentosa:  Engloba o agregado de serviços e cuidados médicos disponiveis no nosso centro médico; Exames laboratoriaias (de análises clínicas e de COVID-19), Radiológicos e Complementares de Diagnóstico; Serviços Domiciliares; e Programas (Conjuntos de serviços) direccionados
+para grupos homogéneos de pacientes. Estas soluções podem ser intermediadas pelos seguintes métodos: Intermédio de Seguradora, Conta Corrente e Gestão de Plafond.
 
 2 Saúde Oocupacional: Constituído pelos vários Exames Ocupacionais, desde Admissionais, Demissionais e Periódicos, bem como os de Retorno ao Trabalho ou Mudança de Função. Alguns exames complementares neste ramo incluem Espirometria, Audiometria, Raio-X do Tórax, Acuidade Viusal, Função Renal e Hepática, entre outros, com pacotes direccionados para a especificidade de cada instituição ou sector.
 
@@ -47,3 +48,51 @@ Inclui um layout parecido com deles: https://dalima.co.mz
 [5:52 pm, 31/05/2022] Valter Siba: Campanhas
 
 Linked In Quadradinho na parte azul dos Quicklinks
+
+
+Podes criar uma coisa na horizontal tmb onde só vem:
+Title - AYAmed Corporate
+Descrição: Encontre aqui soluções holísticas e personalizadas na área de saúde ocupacional.
+Botão Central - Visitar Site (Algo parecido com Secção Pacotes da μtter
+
+
+
+
+
+<!-- The Modal 1-->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 style="font-weight: bold;">Assistência Médica e Medicamentosa </h3>
+      <p> Engloba o agregado de serviços e cuidados médicos disponiveis no nosso centro médico; Exames laboratoriaias (de análises clínicas e de COVID-19), Radiológicos e Complementares de Diagnóstico; Serviços Domiciliares; e Programas (Conjuntos de serviços) direccionados para grupos homogéneos de pacientes. Estas soluções podem ser intermediadas pelos seguintes métodos: Intermédio de Seguradora, Conta Corrente e Gestão de Plafond.</p>
+    </div>
+  
+  </div>
+  
+  <!-- The Modal 2-->
+  <div id="myModal_2" class="modal_2">
+  
+    <!-- Modal content -->
+    <div class="modal-content_2">
+      <span class="close_2">&times;</span>
+      <h3 style="font-weight: bold;">Saúde Oocupacional </h3>
+      <p>Constituído pelos vários Exames Ocupacionais, desde Admissionais, Demissionais e Periódicos, bem como os de Retorno ao Trabalho ou Mudança de Função. Alguns exames complementares neste ramo incluem Espirometria, Audiometria, Raio-X do Tórax, Acuidade Viusal, Função Renal e Hepática, entre outros, com pacotes direccionados para a especificidade de cada instituição ou sector.</p>
+    </div>
+  
+  </div>
+  
+  <!-- The Modal 3-->
+  <div id="myModal_3" class="modal_3">
+  
+    <!-- Modal content -->
+    <div class="modal-content_3">
+      <span class="close_3">&times;</span>
+      <!-- <span class="icon-modal"><p><i class="fa fa-eye"></i></p></span> -->
+      <h3 style="font-weight: bold;">Medicina Preventiva</h3>
+      <p>Compreende vários pacotes de check-up de saúde preventiva, bem como feiras e palestras de sensibilização, todos personalizáveis à necessidade do agregado de colaboradores do cliente. Com mais de 10 check-ups de saúde, oferecemos desde Check-up Fitness, Básico e de Coração até Pré-concepcional, Mulher Plena e Saúde Mental, de modo a prevenir e detectar precocemente qualquer factor físico ou psicológico que possa mitigar a melhor peformance do seu maior activo, o colaborador.</p>
+     
+    </div>
+  
+  </div>

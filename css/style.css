@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #0c0c0c;
@@ -49,6 +53,7 @@ p {
     align-items: center;
     text-align: center;
     color: #090808;
+    margin-top: 20px;
 }
 
 .heading_container h2 {
@@ -65,7 +70,7 @@ p {
 .hero_area {
     height: 100vh;
     position: relative;
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../images/hero-bg-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -444,7 +449,7 @@ a:focus {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin: 45px 0px 0 0px;
+    margin: 45px 0px 0px 0px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -459,6 +464,8 @@ a:focus {
 .service_section .service_container .box .detail-box {
     text-align: center;
     margin-top: 20px;
+    /* margin: 40px; */
+    padding: 20px;
 }
 
 .service_section .service_container .box .detail-box h5 {
@@ -478,6 +485,7 @@ a:focus {
     border-radius: 0;
     border: 1px solid #13262d;
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .service_section .service_container .box .detail-box a:hover {
@@ -649,6 +657,12 @@ a:focus {
 
 .project_section {
     font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/who-bg.jpg);
+    background-size: cover;
+}
+
+.project_section .heading_container {
+    color: #fff;
 }
 
 .project_section .img-box {
@@ -693,7 +707,8 @@ a:focus {
     text-transform: uppercase;
 }
 
-.project_section .img-box::after {
+
+/* .project_section .img-box::after {
     content: "";
     display: none;
     width: 100%;
@@ -703,7 +718,7 @@ a:focus {
     left: 0;
     background-color: rgba(234, 60, 60, 0.8);
     z-index: 1;
-}
+} */
 
 .project_section .img-box:hover::after {
     display: block;
@@ -857,10 +872,11 @@ a:focus {
     font-weight: bold;
 }
 
-.map_container {
-    /* height: 500px;
-    width: 750px !important; */
-}
+
+/* .map_container {
+    height: 500px;
+    width: 750px !important;
+} */
 
 
 /* contact section */
@@ -885,6 +901,7 @@ a:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 50px 50px 50px auto;
 }
 
 .info_section form input {
@@ -921,6 +938,8 @@ a:focus {
     transform: translateX(-100%);
     font-weight: bold;
     outline: none;
+    /* width: 100%;
+    margin-left: 100px; */
 }
 
 .links_container {
@@ -1005,4 +1024,236 @@ a:focus {
 .mapframe {
     width: 600px;
     height: 350px;
+}
+
+.linkedin-square {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+
+/* popup */
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    /* background: linear-gradient(rgba(250, 249, 249, 0.3), rgba(2, 2, 2, 0.1)), url(../img/values-modal-1-2.png) fixed center center; */
+    /* background-size: cover; */
+    background: rgba(0, 0, 0, 0.939);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(194, 173, 103);
+    width: 60%;
+}
+
+.modal-content p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.modal-content h3 {
+    color: #fcd116;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 2px;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #fff;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.close:hover,
+.close:focus {
+    color: #fcd116;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* popup 2 */
+
+
+/* The Modal (background) */
+
+.modal_2 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content_2 {
+    /* background: linear-gradient(rgba(250, 249, 249, 0.3), rgba(2, 2, 2, 0.1)), url(../img/values-modal-1-2.png) fixed center center;
+      background-size: cover; */
+    background: rgba(0, 0, 0, 0.939);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(247, 223, 89);
+    width: 60%;
+}
+
+.modal-content_2 p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.modal-content_2 h3 {
+    color: #fcd116;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* The Close Button */
+
+.close_2 {
+    color: #fcd116;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close_2:hover,
+.close_2:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* popup 3 */
+
+
+/* The Modal (background) */
+
+.modal_3 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content_3 {
+    /* background: linear-gradient(rgba(252, 186, 6, 0.658), rgba(250, 249, 249, 0.5)), url(../img/values-modal-visao.png) fixed center center;
+    background-size: cover; */
+    background: rgba(0, 0, 0, 0.939);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(51, 50, 47);
+    width: 60%;
+}
+
+.modal-content_3 p {
+    /* background-color: rgba(250, 249, 249, 0.644); */
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 80px;
+    padding: 10px;
+}
+
+.modal-content_3 h3 {
+    color: #fcd116;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* The Close Button */
+
+.close_3 {
+    color: #fcd116;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close_3:hover,
+.close_3:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
 }
